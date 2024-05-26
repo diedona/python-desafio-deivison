@@ -1,0 +1,6 @@
+{
+  "venv": "denv"
+  "executionEnvironments": [
+    {"root": "./"}
+  ]
+}
