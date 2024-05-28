@@ -1,7 +1,21 @@
 import funcs
 import numpy as np
 
-funcs.say_hi()
 nested_array = np.array([["", "", ""], ["", "", ""], ["", "", ""]])
 
-funcs.print_arr([["o", "l", "a"], ["m", "u", "n", "d", "o"]])
+print("this is the movable field:")
+funcs.print_arr()
+
+print()
+
+while True:
+    row = int(input("enter the row:"))
+    column = int(input("enter the column:"))
+
+    funcs.set_char_in_arr(row, column)
+
+    print()
+
+    funcs.print_arr()
+
+    print()
