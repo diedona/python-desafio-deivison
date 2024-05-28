@@ -4,4 +4,4 @@ import numpy as np
 funcs.say_hi()
 nested_array = np.array([["", "", ""], ["", "", ""], ["", "", ""]])
 
-print(nested_array)
+funcs.print_arr([["o", "l", "a"], ["m", "u", "n", "d", "o"]])
