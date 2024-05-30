@@ -1,7 +1,4 @@
 import funcs
-import numpy as np
-
-nested_array = np.array([["", "", ""], ["", "", ""], ["", "", ""]])
 
 print("this is the movable field:")
 funcs.print_arr()
@@ -19,3 +16,7 @@ while True:
     funcs.print_arr()
 
     print()
+
+    if funcs.check_winner():
+        print("WINNER")
+        break
